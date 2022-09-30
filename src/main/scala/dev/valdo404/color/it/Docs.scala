@@ -40,4 +40,33 @@ object Docs {
    * 0,0,0,1    0,0,0,1     0,0,0,1     0,0,0,2     0,0,0,0
    *
    */
+
+  /**
+   *
+   * Analyse algo
+   *
+   * On a besoin d'un algo:
+   * - Pour chaque couleur il va compter les deblocages possibles
+   * - Iteration sur notre tableau de couleurs de référence pour avoir le nombre de déblocages atteignables
+   *  - Besoin d'une estimation des formes
+   *  - Relier les formes entre elles
+   *
+   *
+   *  Grey -f- C1 -a- D1 - C1 -a'-
+   *                       C2 -b'-
+   *                       C3 -c'-
+   *       -g- C2 -b- D2 - C1 -a''-
+   *                       C2 -c''-
+   *                       C3 -c''-
+   *       -h- C3 -c- D3 - C1 -c'''-
+   *                       C2 -c'''-
+   *                       C3 -c'''-
+   *
+   *
+   * MST
+   *
+   */
+
+
+
 }

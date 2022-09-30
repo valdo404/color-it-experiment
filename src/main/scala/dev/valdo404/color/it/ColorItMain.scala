@@ -11,13 +11,9 @@ class ColorItMain extends App {
    * - reply result as file
    *
    * Algorithmic idea:
-   * - Topographic walk ?
-   * - Track what is already processed and what needs to be processed
-   * - What needs to be processed is determined using an heuristic that tracks the biggest available ensemble
    *
-   * Combination of flood algorithm and
-   * floyd warshall (nope because it does so for all vertexes and seems greedy) ?
-   * Widest Path Problem (nope because you it is not the kind of problem) ?
-   * Minimum spanning tree (may be the one and especially prim's algorithm)
+   * Combination of:
+   * recursive flood algorithm (recursive span filling) with shapes merging (if they are adjacents to the same shape)
+   * Minimum spanning tree (may be the one and especially prim's algorithm) IMPORTED
    */
 }
